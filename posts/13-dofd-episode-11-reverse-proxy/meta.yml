@@ -1,0 +1,8 @@
+title: "Reverse Proxy Setup"
+tags: ["DevOps"]
+playlists: ["DevOps for Developers"]
+publish: true
+details:
+  blurb: "Connecting your app to a Reverse Proxy"
+  video: "http://www.youtube.com/watch?v=xVIjo43EQyI"
+  cover: 'assets/cover.png'

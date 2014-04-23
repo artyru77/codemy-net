@@ -1,5 +1,5 @@
-title: "Optimizing your Rails App Part 1: N+1 Queries"
-tags: ["Rails", "Active Record"]
+title: "N+1 Queries"
+tags: ["Rails", "ActiveRecord", "Optimization"]
 publish: true
 details:
   cover: "assets/cover.png"

@@ -1,0 +1,8 @@
+title: "The Shopper App"
+tags: ["DevOps"]
+playlists: ["DevOps for Developers"]
+publish: true
+details:
+  blurb: "Checkout our free opensource e-commerce app"
+  video: "http://www.youtube.com/watch?v=hhPunp5m5v8"
+  cover: 'assets/cover.png'

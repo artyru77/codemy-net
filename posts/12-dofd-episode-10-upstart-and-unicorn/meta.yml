@@ -1,0 +1,8 @@
+title: "Upstart and Unicorn"
+tags: ["DevOps"]
+playlists: ["DevOps for Developers"]
+publish: true
+details:
+  blurb: "Getting your app running with Upstart and Unicorn"
+  video: "http://www.youtube.com/watch?v=lR-kbGdjWps"
+  cover: 'assets/unicorn.png'

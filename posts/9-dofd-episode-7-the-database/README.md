@@ -1,0 +1,1 @@
+In this episode we look at how to setup the database on our server. We also talk a bit about some security best practices.
