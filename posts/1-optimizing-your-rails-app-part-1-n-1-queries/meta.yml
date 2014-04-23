@@ -1,0 +1,6 @@
+title: "Optimizing your Rails App Part 1: N+1 Queries"
+tags: ["Rails", "Active Record"]
+publish: true
+details:
+  cover: "assets/cover.png"
+  blurb: "We discuss what N+1 Queries are and how to avoid them."

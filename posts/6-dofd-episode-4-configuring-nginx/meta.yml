@@ -1,0 +1,8 @@
+title: "Configuring Nginx"
+tags: ["DevOps"]
+playlists: ["DevOps for Developers"]
+publish: true
+details:
+  blurb: "We show you how to configure nginx to server static files"
+  video: "http://www.youtube.com/watch?v=CV8k3vHO9VM"
+  cover: 'assets/cover.png'

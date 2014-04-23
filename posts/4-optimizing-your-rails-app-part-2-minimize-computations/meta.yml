@@ -1,0 +1,6 @@
+title: "Optimizing your Rails App Part 2: Minimizing Computation"
+tags: ["Rails"]
+publish: true
+details:
+  blurb: "We show you some techniques to help you minimize computation in your app."
+  cover: 'assets/cover.png'

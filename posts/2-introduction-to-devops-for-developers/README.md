@@ -1,0 +1,1 @@
+DevOps for Developers is a video series for developers who want to understand how servers work, and how to build one for serving your applications. Whether your working with Ruby / Rails or NodeJS or any other platform, having a good understanding of how your application is served can give you a big advantage when your solving problems in your apps.
