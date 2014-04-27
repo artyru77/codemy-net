@@ -1,0 +1,8 @@
+title: "Analytics with Redis"
+tags: ["Redis", "Ruby"]
+playlists: ["A Shot of Ruby"]
+publish: true
+details:
+  blurb: "How to build a basic analytics system with Redis."
+  cover: "assets/hash-selector-icon.png"
+  video: ""
