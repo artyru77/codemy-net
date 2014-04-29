@@ -6,6 +6,7 @@ Another benefit of redis is it has certain data structures baked into it. Which 
 
 In this episode I'm going to be showing you how you leverage Redis datastore to build a simple analytics system for your own project. We're going to start simple with basic key-value store and then move over to use redis's data structure to store data.
 
+
 ## What data are we recording?
 
 Here are the specs of the system we're going to create.
