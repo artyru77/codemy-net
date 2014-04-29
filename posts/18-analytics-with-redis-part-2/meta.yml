@@ -1,0 +1,7 @@
+title: "Analytics with Redis Part 2"
+tags: ["Redis", "Ruby", "Nosql"]
+playlists: ["A Shot of Ruby"]
+publish: false
+details:
+  blurb: "We take what we've learned and put it in the context of an analytics system"
+  cover: "assets/cover.png"
