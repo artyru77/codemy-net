@@ -1,8 +1,8 @@
 title: "Analytics with Redis Part 1"
 tags: ["Redis", "Ruby", "Nosql"]
 playlists: ["A Shot of Ruby"]
-publish: false
+publish: true
 details:
   blurb: "How to build a basic analytics system with Redis."
   cover: "assets/cover.png"
-  video: ""
+  video: "http://www.youtube.com/watch?v=X6OnNLtJq_Q"
