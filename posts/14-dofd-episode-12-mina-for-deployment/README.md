@@ -1,5 +1,5 @@
-[Mina for Deployment Part 1](http://www.youtube.com/watch?v=W2Lt1Hjz2vw)
-[Mina for Deployment Part 2](http://www.youtube.com/watch?v=8RX6vftLokg)
++ [Mina for Deployment Part 1](http://www.youtube.com/watch?v=W2Lt1Hjz2vw)
++ [Mina for Deployment Part 2](http://www.youtube.com/watch?v=8RX6vftLokg)
 
 In this episode I am going to be showing you how to setup mina in your rails app and configure your server to work with mina.
 
