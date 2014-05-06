@@ -4,5 +4,6 @@ playlists: ["A Shot of Ruby"]
 publish: true
 details:
   blurb: "We take what we've learned and put it in the context of an analytics system"
-  cover: "assets/cover.png"
+  cover: "assets/redis-02.png"
   video: "http://www.youtube.com/watch?v=FnVbKML7tvM"
+  color: "pomegranate"

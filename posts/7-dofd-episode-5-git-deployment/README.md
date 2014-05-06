@@ -1,5 +1,6 @@
 In this episode we take a look at how to setup a git deployment workflow.
 
+
 ## Notable Commands
 
 ```

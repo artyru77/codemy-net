@@ -2,5 +2,6 @@ title: "N+1 Queries"
 tags: ["Rails", "ActiveRecord", "Optimization"]
 publish: true
 details:
-  cover: "assets/cover.png"
+  cover: "assets/n-plus-1.png"
   blurb: "We discuss what N+1 Queries are and how to avoid them."
+  color: "wet-asphalt"

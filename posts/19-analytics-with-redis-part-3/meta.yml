@@ -5,3 +5,4 @@ publish: false
 details:
   blurb: "We're going to apply what we've learned about redis in our Rails app"
   cover: "assets/cover.png"
+  color: "pomegranate"

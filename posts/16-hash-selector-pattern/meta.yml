@@ -4,5 +4,6 @@ playlists: ["A Shot of Ruby"]
 publish: true
 details:
   blurb: "We show you an alternative to if / case"
-  cover: "assets/hash-selector-icon.png"
+  cover: "assets/hash-selector.png"
   video: "http://www.youtube.com/watch?v=Pyg-31Nhd8I"
+  color: "turquoise"

@@ -1,5 +1,6 @@
 + [Part 1](http://codemy.net/posts/analytics-with-redis-part-1)
 
+
 The first thing we need to try and do is increment the pageviews. We don't care if its repeated we just want to know for each post in our blog, how many pageview it has on a day to day basis. Lets try and create that in redis.
 
 ### Tracking Page Views

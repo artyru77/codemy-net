@@ -4,5 +4,6 @@ playlists: ["A Shot of Ruby"]
 publish: true
 details:
   blurb: "How to build a basic analytics system with Redis."
-  cover: "assets/cover.png"
+  cover: "assets/redis-01.png"
   video: "http://www.youtube.com/watch?v=X6OnNLtJq_Q"
+  color: "pomegranate"

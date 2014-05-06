@@ -3,4 +3,5 @@ tags: ["Rails", "Optimization"]
 publish: true
 details:
   blurb: "We show you some techniques to help you minimize computation in your app."
-  cover: 'assets/cover.png'
+  cover: 'assets/minimize.png'
+  color: "amethyst"

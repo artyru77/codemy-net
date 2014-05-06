@@ -3,6 +3,7 @@ tags: ["DevOps"]
 playlists: ["DevOps for Developers"]
 publish: true
 details:
-  cover: "assets/devops-icon.png"
+  cover: "assets/intro.png"
   blurb: "Introducing DevOps for Developers"
   video: "http://www.youtube.com/watch?v=xr5bZ2ZR28w"
+  color: "orange"

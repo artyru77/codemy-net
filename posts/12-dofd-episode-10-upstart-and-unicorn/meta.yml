@@ -6,3 +6,4 @@ details:
   blurb: "Getting your app running with Upstart and Unicorn"
   video: "http://www.youtube.com/watch?v=lR-kbGdjWps"
   cover: 'assets/unicorn.png'
+  color: "midnight-blue"

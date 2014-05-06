@@ -3,6 +3,7 @@ tags: ["Rails"]
 playlists: ["A Shot of Ruby"]
 publish: true
 details:
-  cover: "assets/cover.png"
+  cover: "assets/rails-flash.png"
   video: "http://www.youtube.com/watch?v=rSlDEvtk6lA"
   blurb: "How to setup flash messages in your application"
+  color: "peter-river"

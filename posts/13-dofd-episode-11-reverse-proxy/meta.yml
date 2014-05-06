@@ -5,4 +5,5 @@ publish: true
 details:
   blurb: "Connecting your app to a Reverse Proxy"
   video: "http://www.youtube.com/watch?v=xVIjo43EQyI"
-  cover: 'assets/cover.png'
+  cover: 'assets/proxy.png'
+  color: 'emerland'

@@ -5,4 +5,5 @@ publish: true
 details:
   blurb: "Setting up the Shopper App"
   video: "http://www.youtube.com/watch?v=8nsbbwdfv0A"
-  cover: 'assets/cover.png'
+  cover: 'assets/shopper-02.png'
+  color: "wisteria"

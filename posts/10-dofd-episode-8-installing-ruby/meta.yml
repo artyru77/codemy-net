@@ -5,4 +5,5 @@ publish: true
 details:
   blurb: "Setting up Ruby on your server"
   video: "http://www.youtube.com/watch?v=mMMH0qPXRXc"
-  cover: 'assets/cover.png'
+  cover: 'assets/ruby.png'
+  color: "alizarin"

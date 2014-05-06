@@ -5,4 +5,5 @@ publish: true
 details:
   blurb: "Understanding our stack"
   video: "http://www.youtube.com/watch?v=c64KWbwealU"
-  cover: 'assets/cover.png'
+  cover: 'assets/stack.png'
+  color: "belize-hole"
