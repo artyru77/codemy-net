@@ -14,22 +14,22 @@ I've come across many rails application during my teaching days and this seems t
 
 What are N + 1 queries? Its basically when you load a bunch of objects from the database and then for each one of those objects you make 1 or more database query, let me explain with an example.
 
-```
+```ruby
 # your models
 
-class Customer < ActiveRecor...
+class Customer < ActiveRecord::Base
   has_one :address
   scope :active, -> { where(active: true) }
 end
 
-class Address < ActiveRecor...
+class Address < ActiveRecord::Base
   belongs_to :customer
 end
 
 ```
 
 
-```
+```ruby
 # your controller
 
 def index
@@ -37,7 +37,7 @@ def index
 end
 ```
 
-```
+```ruby
 # your view
 
 <% @customers.each do |c| %>
@@ -52,7 +52,7 @@ So as your outputting the address for each customer your going to make a query t
 
 To avoid N + 1 queries you can use a technique called eager loading to load the address of the customers at the same time the customers are being loaded from the database. So everything happens in 1 big query. How do you do this in rails? Lets take a look
 
-```
+```ruby
   @customers = Customer.active.includes(:address)
 ```
 
@@ -62,16 +62,16 @@ You can also do eager loading in your model, where you setup your relationships.
 
 Check out this example
 
-```
-class Customer < ActiveRecor....
+```ruby
+class Customer < ActiveRecord::Base
   has_many :orders, -> { includes(:items) }
 end
 
-class Order < ActiveRecor...
+class Order < ActiveRecord::Base
   has_many :items
 end
 
-class Items < ActiveRecor...
+class Items < ActiveRecord::Base
   belongs_to :order
   belongs_to :product
 end
@@ -79,13 +79,13 @@ end
 
 When you make a call to the orders of the customer for example
 
-```
+```ruby
 customer.orders
 ```
 
 ActiveRecord is going to eager load all the items associated with the orders as well so you can avoid N + 1 this is good if you want to then do things like loop out each order and have a count of how many items each order has.
 
-```
+```ruby
 <% customer.orders.each do |order| %>
   <%= order.number %> (<%= order.items.count %>)
 <% end %>
