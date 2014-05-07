@@ -48,7 +48,7 @@ end
 
 So as your outputting the address for each customer your going to make a query to the database, imagine loading up 100s of customers in your index and having to make 100s of queries to the database. Your really going to slow your application down.
 
-#### Say hello to eager loading
+### Say hello to eager loading
 
 To avoid N + 1 queries you can use a technique called eager loading to load the address of the customers at the same time the customers are being loaded from the database. So everything happens in 1 big query. How do you do this in rails? Lets take a look
 
