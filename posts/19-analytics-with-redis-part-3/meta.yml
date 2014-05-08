@@ -1,8 +1,9 @@
 title: "Analytics with Redis Part 3"
 tags: ["Redis", "Ruby", "Nosql", "Rails"]
 playlists: ["A Shot of Ruby"]
-publish: false
+publish: true
 details:
   blurb: "We're going to apply what we've learned about redis in our Rails app"
-  cover: "assets/cover.png"
+  cover: "assets/redis-03.png"
+  video: "http://www.youtube.com/watch?v=zr6ff__dWmU"
   color: "pomegranate"

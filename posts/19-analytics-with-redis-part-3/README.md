@@ -2,7 +2,7 @@ Alright so now we understand how our analytics system is going to work we can no
 
 Lets first figure out how we can integrate Redis into our rails app. Its actually quite simple. We're going to use an initializer to load redis when our application starts.
 
-In `config/initializers` go ahead and create a file called `analytics.rb` with the following content
+In `config/initializers` go ahead and create a file called `redis.rb` with the following content
 
 ```ruby
 require 'redis'
@@ -31,7 +31,7 @@ The next think we need to track is the Unique visits.
   def show
     @post = get_post
     $redis.incr "#{Date.today.year}:#{Date.today.month}:#{Date.today.day}:post:#{@post.id}:views"
-    $redis.sadd "#{Date.today.year}:#{Date.today.month}:#{Date.today.day}:post:#{@post.id}:uniques", "#{request.remote_ip}"
+    $redis.sadd "#{Date.today.year}:#{Date.today.month}:#{Date.today.day}:post:#{@post.id}:uniques", request.remote_ip
   end
 ```
 
