@@ -1,3 +1,6 @@
++ [Part 1](http://codemy.net/posts/analytics-with-redis-part-1)
++ [Part 2](http://codemy.net/posts/analytics-with-redis-part-2)
+
 Alright so now we understand how our analytics system is going to work we can now integrate what we've just learned into our Rails app.
 
 Lets first figure out how we can integrate Redis into our rails app. Its actually quite simple. We're going to use an initializer to load redis when our application starts.
