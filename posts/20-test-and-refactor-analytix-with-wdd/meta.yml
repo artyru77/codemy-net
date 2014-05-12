@@ -1,9 +1,9 @@
 title: "Test and Refactor Analytix with WDD"
 tags: ["Redis", "Ruby", "Nosql", "Rails", "Testing"]
 playlists: ["A Shot of Ruby"]
-publish: false
+publish: true
 details:
   blurb: "We are going to clean up our implementation and create an abstraction layer for our analytics system."
-  cover: "assets/redis-03.png"
-  video: "http://www.youtube.com/watch?v=zr6ff__dWmU"
-  color: "pomegranate"
+  cover: "assets/test-refactor.png"
+  video: "http://www.youtube.com/watch?v=bO7IB39fvMU"
+  color: "midnight-blue"

@@ -154,3 +154,8 @@ We have now implemented the part that makes the call and record the data to Redi
 Lets first write our test for the `track` method. 
 
 We know what needs to happen. When we call the `incr` method redis simply returns the number of views to us. So we can write the test like this
+
+```ruby
+
+
+```
