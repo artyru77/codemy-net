@@ -184,6 +184,12 @@ end
 
 Lets continue with the `track` method. We're going to use redis's `pipelined` method in order to optimize the call of multiple commands in 1 connection. Which means we're going to get an array with the results inside, like so.
 
+```ruby
+[1, true] # or 
+[2, false] # or
+[1]
+```
+
 We know what needs to happen. When we call the `incr` method redis simply returns the number of views to us. So we can write the test like this
 
 ```ruby
