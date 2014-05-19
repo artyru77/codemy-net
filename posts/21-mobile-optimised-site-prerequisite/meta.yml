@@ -1,0 +1,9 @@
+title: "Mobile Optimised Site Prerequisite"
+tags: ["Rails", "Mobile", "Framework7", "Frontend"]
+playlists: ["A Shot of Ruby"]
+publish: true
+details:
+  blurb: "We show you some tools we're going to use to create a mobile optimised site."
+  cover: "assets/mobile-prerequisite.png"
+  video: "http://www.youtube.com/watch?v=u3AWQzetYTw"
+  color: "green-sea"
