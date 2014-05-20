@@ -1,8 +1,9 @@
 title: "Rails 4.1 Variants"
 tags: ["Rails", "Mobile"]
 playlists: ["A Shot of Ruby"]
-publish: false
+publish: true
 details:
   blurb: "We show you how to setup and use the new Rails 4.1 feature variants."
   cover: "assets/rails-variants.png"
+  video: "http://www.youtube.com/watch?v=Glwa5HUmRxQ"
   color: "peter-river"

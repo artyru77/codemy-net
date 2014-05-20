@@ -13,21 +13,17 @@ To get started we'll need to implement the method that will let us set which var
 In `application_controller.rb`
 
 ```ruby
-def detect_device_format
-  case request.user_agent
-    when /iPhone/i               then request.variant = :phone
-    when /Android/i && /mobile/i then request.variant = :phone
-    when /Windows Phone/i        then request.variant = :phone
-  end
+def set_device_format
+  request.variant = :phone if browser.mobile?
 end
 ```
 
-We use the `request.user_agent` to detect which kind of device is accessing our application and select the `variant` by setting it using `request.variant = :phone`
+We use the `browser` gem to detect which kind of device is accessing our application and select the `variant` by setting it using `request.variant = :phone`
 
 All we need to do now is run this method before our action runs
 
 ```ruby
-before_action :detect_device_format
+before_action :set_device_format
 ```
 
 Our `application_controller.rb` should look something like this
@@ -35,16 +31,12 @@ Our `application_controller.rb` should look something like this
 ```ruby
 class ApplicationController < ActionController::Base
 
-  before_action :detect_device_format
+  before_action :set_device_format
 
 private
 
-  def detect_device_format
-    case request.user_agent
-      when /iPhone/i               then request.variant = :phone
-      when /Android/i && /mobile/i then request.variant = :phone
-      when /Windows Phone/i        then request.variant = :phone
-    end
+  def set_device_type
+    request.variant = :phone if browser.mobile?
   end
 
 end
