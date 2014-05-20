@@ -5,5 +5,4 @@ publish: false
 details:
   blurb: "We show you how to setup and use the new Rails 4.1 feature variants."
   cover: "assets/rails-variants.png"
-  video: "http://www.youtube.com/watch?v=u3AWQzetYTw"
   color: "peter-river"
