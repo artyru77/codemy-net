@@ -4,4 +4,6 @@ playlists: ["A Shot of Ruby"]
 publish: true
 details:
   blurb: "We show you how to integrate Framework7 into your rails app."
-  cover: "assets/writefully.png"
+  cover: "assets/f7-icon.png"
+  video: "http://www.youtube.com/watch?v=3KF-RF3Z6lg"
+  color: 'pumpkin'
