@@ -3,7 +3,8 @@ In this episode we show you how to setup Framework7 into your rails application.
 Here is a list of code snippets that we used to setup Framework7 in our example.
 
 `app/views/layouts/application.html+phone.erb`
-```erb
+
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -37,7 +38,8 @@ Here is a list of code snippets that we used to setup Framework7 in our example.
 ```
 
 `app/views/application/phone/_left_panel.html.erb`
-```erb
+
+```html
 <!-- Left panel with reveal effect-->
 <div class="panel panel-left panel-reveal">
   
@@ -45,7 +47,8 @@ Here is a list of code snippets that we used to setup Framework7 in our example.
 ```
 
 `app/views/posts/index.html+phone.erb`
-```erb
+
+```html
 <div class="navbar">
   <div class="navbar-inner">
     <div class='left'>
@@ -68,6 +71,7 @@ Here is a list of code snippets that we used to setup Framework7 in our example.
 ```
 
 `app/assets/javascripts/phone/setup.coffee`
+
 ```coffee
 window.F7H =
   app: new Framework7()
