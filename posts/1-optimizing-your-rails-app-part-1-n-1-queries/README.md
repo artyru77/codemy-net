@@ -77,7 +77,7 @@ class Items < ActiveRecord::Base
 end
 ```
 
-When you make a call to the orders of the customer for exampl
+When you make a call to the orders of the customer for example
 
 ```ruby
 customer.orders
