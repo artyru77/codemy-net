@@ -1,0 +1,9 @@
+title: "Optimizing the Mobile Site"
+tags: ["Rails", "Mobile", "Framework7"]
+playlists: ["A Shot of Ruby"]
+publish: true
+details:
+  blurb: "We show you how to optimize your controller for framework7"
+  cover: "assets/optimize-mobile.png"
+  video: "http://www.youtube.com/watch?v=Yvmu3QXcdz8"
+  color: 'nephritis'
