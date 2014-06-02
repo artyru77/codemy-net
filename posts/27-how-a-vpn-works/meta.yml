@@ -1,6 +1,7 @@
-title: "Change Me"
-tags: ["Writefully"]
+title: "How a VPN Works"
+tags: ["Devops", "VPN"]
+playlists: ["Devops for Developers"]
 publish: true
 details:
-  blurb: "This is a sample post for Writefully"
-  cover: "assets/writefully.png"
+  blurb: "We discuss the details of how a vpn works, and why you would want to have one."
+  cover: "assets/vpn-icon.png"
