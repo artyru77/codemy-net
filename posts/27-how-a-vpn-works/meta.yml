@@ -5,3 +5,5 @@ publish: false
 details:
   blurb: "We discuss the details of how a vpn works, and why you would want to have one."
   cover: "assets/vpn-icon.png"
+  color: "wisteria"
+  video: "http://www.youtube.com/watch?v=zpUHD-PQuZg"
