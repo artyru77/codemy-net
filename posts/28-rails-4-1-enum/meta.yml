@@ -1,6 +1,6 @@
 title: "Rails 4.1 Enum"
 tags: ["Rails"]
-publish: true
+publish: false
 details:
   blurb: "We show you why and how you would use enum in your app"
   cover: "assets/enum-icon.png"
