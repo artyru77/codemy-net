@@ -21,4 +21,4 @@ For example in a hotel a reservation that is 'created' may just mean the user is
 
 Usually when working with states there are many gems that help us in our rails app, gems like [state_machine](https://github.com/pluginaweek/state_machine) or [AASM](https://github.com/aasm/aasm) 
 
-The new Enum feature in rails replaces a lot of the features provided by the above gems. Enum also serves as a great foundation for building more complex state machines like transitions, and guards and more.
+The new Enum feature in rails replaces a lot of the features provided by the above gems. Enum also serves as a great foundation for building more complex state machines that have transitions, guards and more.
