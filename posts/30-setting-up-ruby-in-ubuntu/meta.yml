@@ -1,0 +1,9 @@
+title: "Setting up Ruby in Ubuntu"
+tags: ["Ruby", "Ubuntu"]
+playlists: ["A Shot of Ruby"]
+publish: true
+details:
+  blurb: "In this episode we show you how to setup ruby in Ubuntu"
+  cover: "assets/ubuntu-ruby.png"
+  color: "carrot"
+  video: "http://www.youtube.com/watch?v=tPDNu9lrzYQ"
