@@ -1,0 +1,8 @@
+title: "Add Some Jazz to Your Rails App"
+tags: ["Rails", "Gem"]
+playlists: ["Sauce of the Week"]
+publish: true
+details:
+  blurb: "Jazz hands gem turns your console into a powerful tool."
+  cover: "assets/jazz-hands.png"
+  color: "turquoise"
