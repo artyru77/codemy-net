@@ -3,7 +3,7 @@ tags: ["Ruby"]
 playlists: ["Ruby From Scratch"]
 publish: true
 details:
-  blurb: "This is a sample post for Writefully"
+  blurb: "We show you some basic ruby data types."
   cover: "assets/ruby.png"
   color: "alizarin"
   video: "http://www.youtube.com/watch?v=eu9EANbq2yk"
