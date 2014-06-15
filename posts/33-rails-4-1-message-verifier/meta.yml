@@ -1,0 +1,9 @@
+title: "Rails 4.1 Message Verifier"
+tags: ["Rails"]
+playlists: ["A Shot of Ruby"]
+publish: true
+details:
+  blurb: "A brief introduction to Rails Message Verifier"
+  cover: "assets/message-verifier.png"
+  color: "peter-river"
+  video: "http://www.youtube.com/watch?v=qNJbe1HWXDA"
