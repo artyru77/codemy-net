@@ -1,0 +1,9 @@
+title: "Setting up Ruby on OSX (Yosemite)"
+tags: ["Ruby"]
+playlists: ["Ruby From Scratch"]
+publish: true
+details:
+  blurb: "We show you how to setup ruby on OSX Yosemite"
+  cover: "assets/ruby-osx.png"
+  color: "emerland"
+  video: "http://www.youtube.com/watch?v=jx0NrIbQbzI"
