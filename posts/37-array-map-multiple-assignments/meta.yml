@@ -1,6 +1,10 @@
-title: "Change Me"
-tags: ["Writefully"]
+title: "Array Map and Multiple Assignments"
+tags: ["Ruby"]
+playlists: ["Ruby From Scratch"]
 publish: true
 details:
-  blurb: "This is a sample post for Writefully"
-  cover: "assets/writefully.png"
+  blurb: "We show you how to clean up the code we wrote in the previous episode"
+  cover: "assets/ruby-array-map-assignments.png"
+  color: "nephritis"
+  video: "http://www.youtube.com/watch?v=4KYLrmC08vE"
+
