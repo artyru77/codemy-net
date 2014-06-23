@@ -1,0 +1,9 @@
+title: "Introduction to the N+1 Problem"
+tags: ["Rails", "N+1"]
+playlists: ["A Shot of Ruby"]
+publish: true
+details:
+  blurb: "We discuss the N+1 problem and how you can detect it in your application"
+  cover: "assets/n-plus-1.png"
+  color: "pomegranate"
+  video: "http://www.youtube.com/watch?v=Xr3hZdIwuSw"
