@@ -1,0 +1,9 @@
+title: "Optimized Count with Joins and Custom Select"
+tags: ["Rails", "N+1"]
+playlists: ["A Shot of Ruby"]
+publish: true
+details:
+  blurb: "We show you how to build a custom query to improve associations counting."
+  cover: "assets/n-plus-1.png"
+  color: "green-sea"
+  video: "http://www.youtube.com/watch?v=rJg3I-leoo4"
