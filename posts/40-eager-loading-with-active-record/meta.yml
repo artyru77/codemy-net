@@ -1,0 +1,9 @@
+title: "Eager Loading with Active Record"
+tags: ["Rails", "N+1", "Active Record"]
+playlists: ["A Shot of Ruby"]
+publish: true
+details:
+  blurb: "We show you how to use Active Record's built in eager loading feature."
+  cover: "assets/n-plus-1.png"
+  color: "peter-river"
+  video: "http://www.youtube.com/watch?v=wLMRzdOztUY"
