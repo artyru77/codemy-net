@@ -1,3 +1,8 @@
+This post is old and has been deprecated. We have created videos that will help guide you to solving the N+1 problem in Rails. Check it out over here
+
++ [Free N+1 Video Series](http://codemy.net/posts/search/playlists/a-shot-of-ruby/tags/n-1/order/asc)
+
+
 There is a lot of talk about ruby on rails and its performance, and how it doesn't scale. Fact of the matter is rails does scale. There are many apps built using rails and are processing millions of request / day. Basecamp, Harvest, Shopify are some examples of large scale rails app that serve 100s of millions request / day so why do people still complain about its performance?
 
 In this series of articles we take a look at some of the most common pitfalls that causes rails application to have these performance issues, and how to fix them. In this part we're going to be talking mostly about N + 1 queries.
