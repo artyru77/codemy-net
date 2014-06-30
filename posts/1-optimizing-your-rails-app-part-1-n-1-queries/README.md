@@ -4,19 +4,19 @@ This post is old and has been deprecated. We have created videos that will help 
 
 
 > There is a lot of talk about ruby on rails and its performance, and how it doesn't scale. Fact of the matter is rails does scale. There are many apps built using rails and are processing millions of request / day. Basecamp, Harvest, Shopify are some examples of large scale rails app that serve 100s of millions request / day so why do people still complain about its performance?
-
+>
 > In this series of articles we take a look at some of the most common pitfalls that causes rails application to have these performance issues, and how to fix them. In this part we're going to be talking mostly about N + 1 queries.
-
+>
 > ## Database Queries
-
+>
 > First of all we have to understand that an average request in a web application is very likely going to make on an average about 5 - 6 database queries. Thats considered a good request.
-
+>
 > In a lot of cases 1 request could even be making 10 - 20 database queries. This means that web applications are usually I/O bound. Your going to mostly be waiting for the database to serve the queries. In a well written rails application making on average 5-6 requests for a GET request should be the goal. For a POST or a PUT even 10-20 is acceptable however not ideal. Remember less is always more in any form of computing.
-
+>
 > ### Avoiding N+1 queries
-
+>
 > I've come across many rails application during my teaching days and this seems to be a mistake people who are new to rails makes a lot. 
-
+>
 > What are N + 1 queries? Its basically when you load a bunch of objects from the database and then for each one of those objects you make 1 or more database query, let me explain with an example.
 >
 > ```ruby
@@ -32,16 +32,16 @@ This post is old and has been deprecated. We have created videos that will help 
 > end
 >
 > ```
-
-
+>
+>
 > ```ruby
 > # your controller
-
+>
 > def index
 >  @customers = Customer.active
 > end
 > ```
-
+>
 > ```ruby
 > # your view
 >
@@ -50,7 +50,7 @@ This post is old and has been deprecated. We have created videos that will help 
   <%= c.address %> # this one makes a query to the database
 <% end %>
 ```
-
+>
 > So as your outputting the address for each customer your going to make a query to the database, imagine loading up 100s of customers in your index and having to make 100s of queries to the database. Your really going to slow your application down.
 >
 > ### Say hello to eager loading
@@ -66,16 +66,16 @@ This post is old and has been deprecated. We have created videos that will help 
 > You can also do eager loading in your model, where you setup your relationships.
 >
 > Check out this example
-
+>
 > ```ruby
 > class Customer < ActiveRecord::Base
 >   has_many :orders, -> { includes(:items) }
 > end
-
+>
 > class Order < ActiveRecord::Base
 >   has_many :items
 > end
-
+>
 > class Items < ActiveRecord::Base
 >   belongs_to :order
 >   belongs_to :product
