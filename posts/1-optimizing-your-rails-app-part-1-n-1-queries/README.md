@@ -1,6 +1,10 @@
 This post is old and has been deprecated. We have created videos that will help guide you to solving the N+1 problem in Rails. Check it out over here
 
-### [Free N+1 Video Series](http://codemy.net/posts/search/playlists/a-shot-of-ruby/tags/n-1/order/asc)
+## [Free N+1 Video Series](http://codemy.net/posts/search/playlists/a-shot-of-ruby/tags/n-1/order/asc)
+
++ [Introduction to N+1 Problem](http://codemy.net/posts/introduction-to-n-1-problem)
++ [Optimized Count with Joins and Custom Select](http://codemy.net/posts/optimized-count-with-joins-and-custom-select)
++ [Eager Loading with Active Record](http://codemy.net/posts/eager-loading-with-active-record)
 
 
 > There is a lot of talk about ruby on rails and its performance, and how it doesn't scale. Fact of the matter is rails does scale. There are many apps built using rails and are processing millions of request / day. Basecamp, Harvest, Shopify are some examples of large scale rails app that serve 100s of millions request / day so why do people still complain about its performance?
