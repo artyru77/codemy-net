@@ -1,6 +1,6 @@
-title: "Change Me"
-tags: ["Writefully"]
+title: "Creating Custom Query with AREL Part 1"
+tags: ["Rails", "N+1", "Active Record"]
 publish: false
 details:
-  blurb: "This is a sample post for Writefully"
+  blurb: "In this episode we introduce you to the problem we are trying to solve"
   cover: "assets/writefully.png"
