@@ -1,0 +1,9 @@
+title: "Build a Custom Query with AREL"
+tags: ["Rails", "N+1", "Active Record", "Arel"]
+playlists: ["A Shot of Ruby"]
+publish: true
+details:
+  blurb: "We show you how to build a custom query to solve N+1 problem using AREL"
+  cover: "assets/n-plus-1.png"
+  color: "orange"
+  video: "http://www.youtube.com/watch?v=k0gBItXBztU"

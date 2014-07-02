@@ -1,7 +1,5 @@
 To get the most out of your database you'll need to be able to build your own queries. Ruby on Rails comes with AREL, a query builder. 
 
-AREL is a little known feature amongst Ruby on Rails developers. In this episode we will introduce you to some basics behind AREL.
-
 ActiveRecord utilizes AREL to help build queries before it is executed by the database. To access arel you can use the class method `#arel_table`. For example
 
 ```ruby
