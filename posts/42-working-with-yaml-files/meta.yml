@@ -4,6 +4,6 @@ playlists: ["Ruby From Scratch"]
 publish: true
 details:
   blurb: "We show you how to work with yaml files in ruby"
-  cover: "assets/writefully.png"
+  cover: "assets/yaml-icon.png"
   video: 'http://www.youtube.com/watch?v=F7JQxXhceZo'
   color: 'midnight-blue'
