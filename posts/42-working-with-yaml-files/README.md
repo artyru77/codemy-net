@@ -1,0 +1,1 @@
+Yaml files are great for separating data from your code. In this episode we show you why you would want to use yaml files and how to use them in your application.
