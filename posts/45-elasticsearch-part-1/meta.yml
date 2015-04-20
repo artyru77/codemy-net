@@ -1,0 +1,8 @@
+title: "Elasticsearch Part 1"
+tags: ["Elasticsearch", "Rails"]
+playlists: ["A Shot of Ruby"]
+publish: true
+details:
+  blurb: "We show you how to setup elasticsearch for your rails app."
+  color: "pomegranate"
+  cover: "assets/elasticsearch-part-1-cover.png"
