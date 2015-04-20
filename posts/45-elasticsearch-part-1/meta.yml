@@ -6,3 +6,4 @@ details:
   blurb: "We show you how to setup elasticsearch for your rails app."
   color: "pomegranate"
   cover: "assets/elasticsearch-part-1-cover.png"
+  video: "https://www.youtube.com/watch?v=Pse-2ZkVaTs"
